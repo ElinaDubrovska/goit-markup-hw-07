@@ -9,21 +9,22 @@
     margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
+.hero__title{
+        color: var(--primary-white-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase; 
+        margin: 0 auto; 
+        margin-bottom: 30px;
+        width: 696px;
+    }
 
-.hero-title{
-    color: var(--primary-white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase; 
-    margin: 0 auto; 
-    margin-bottom: 30px;
-    width: 696px;
-}
-.hero-button{
+.hero__button{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-family: inherit;

@@ -1,11 +1,9 @@
-.client-list{
+.client__list{
     display: flex;
     gap: 30px;
 }
-.client-list-item{
 
-}
-.client-link{
+.client__link{
     width: 170px;
     height: 92px;
     border: 1px solid rgba(175, 177, 184, 1);
@@ -16,16 +14,18 @@
     color:#AFB1B8 ;
     transition: color var(--typical-timing-duration) var(--typical-timing-function),
     border-color var(--typical-timing-duration) var(--typical-timing-function);
-}
-.client-link:hover{
+    &:hover{
     color: var(--accent-color);    
     border-color:var(--accent-color);
 }
-.client-link:focus{
+    &:focus{
     color: var(--accent-color);    
     border-color:var(--accent-color);
+    outline: none;
 }
-.client-item{
+}
+
+.client__item{
     width: 106px;
     height: 60px;
     fill:currentColor;
